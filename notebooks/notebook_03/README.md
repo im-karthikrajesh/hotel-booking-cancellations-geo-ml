@@ -137,12 +137,12 @@ Set these near the top of the notebook to align outputs with the repo layout:
 
 ```python
 # Inputs
-DATA_PATH   = 'data/processed/bk_full_cleaned.csv'
+DATA_PATH = 'data/processed/bk_full_cleaned.csv'
 
 # Output roots
 from pathlib import Path
 RESULTS_DIR = Path('artifacts/model_results')  # instead of 'model_results/'
-OUT_DIR_FIG = 'reports/figures/geospatial'     # instead of 'figs_geo/'
+OUT_DIR_FIG = 'reports/figures'                # instead of 'figs_geo/'
 OUT_DIR_MAP = 'reports/maps'                   # instead of 'maps_geo/'
 ```
 
