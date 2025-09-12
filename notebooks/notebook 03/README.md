@@ -133,7 +133,7 @@ Figures render inline; save to disk if needed (examples in §12 table).
 
 ## 11) Directory Constants & Feature Toggles (optional)
 
-Set these near the top of the notebook to align outputs with your repo layout:
+Set these near the top of the notebook to align outputs with the repo layout:
 
 ```python
 # Inputs
